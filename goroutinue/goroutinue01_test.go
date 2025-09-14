@@ -1,4 +1,4 @@
-package goroutinue_snippet
+package goroutinuesnippet
 
 import (
 	"fmt"

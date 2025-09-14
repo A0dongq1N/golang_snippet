@@ -13,7 +13,7 @@ func TestMultiPool(t *testing.T) {
 	for i := 0; i < 10; i++ {
 		i := i
 		pool.Submit(func() {
-			time.Sleep(5 * time.Second)
+			time.Sleep(1 * time.Second)
 			t.Log("i: ", i)
 		})
 	}
